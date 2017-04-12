@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Base template angular 1</title>
+    <link rel="stylesheet" href="public/css/styles.css" />
+</head>
+<body ng-controller="HomeController">
+    <div>
+        <ul>
+            <li><a href="#!/view1">View 1</a></li>
+            <li><a href="#!/view2/120">View 2</a></li>
+        </ul>
+    </div>
+
+    <div ng-view></div>
+
+</body>
+    <!--Angular main lib-->
+    <script src="node_modules/angular/angular.min.js" ></script>
+
+    <!--Angular additional libraries-->
+    <script src="node_modules/angular-route/angular-route.min.js"></script>
+
+    <!--Angular my app bootstrap-->
+    <script src="app/app.js"></script>
+
+    <!--Angular controllers-->
+    <script src="app/controllers/homeController.js"></script>
+    <script src="app/controllers/secondController.js"></script>
+
+    <!--Angular directives-->
+    <script src="app/directives/textTitle/textTitle.js"></script>
+
+    <!--Angular factories-->
+    <script src="app/factories/defaultFactory.js"></script>
+
+</html>

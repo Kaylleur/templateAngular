@@ -1,0 +1,9 @@
+<h2>Second view</h2>
+
+From $rootScope<p>{{shared}}</p>
+
+From $routeParams<p>{{id}}</p>
+
+<input type="text" ng-model="stringToSend" placeholder="string that will be sent !"/>
+<button ng-click="callPromise(stringToSend)">click me !</button>
+<div ng-if="returned">{{returned}}</div>

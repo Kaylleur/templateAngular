@@ -1,0 +1,31 @@
+{
+  "name": "template-angular",
+  "version": "1.0.0",
+  "description": "basic template for angular",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -p 8000 -c-1 ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaylleur/templateAngular.git"
+  },
+  "keywords": [
+    "angular",
+    "template",
+    "simple",
+    "base"
+  ],
+  "author": "Kaylleur <dev@thomas-brunet.fr> (https://github.com/kaylleur)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaylleur/templateAngular/issues"
+  },
+  "homepage": "https://github.com/Kaylleur/templateAngular#readme"
+}
